@@ -15,14 +15,9 @@ int main()
         bool flag = true;
         
         //dist indices with each k
-        while(k-- && sr <= n )
-        {
-            
-            sr+=2;
-            
-        }
         
-        if(k>=0) cout<<-1<<endl;
+        
+        if(k>(n+1)/2) cout<<-1<<endl;
         
         else{
             for(int i =1; i <=n ; i++)
